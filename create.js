@@ -45,6 +45,8 @@ const handleImage= async() => {
     let actual_img= img.files[0];
     //console.log(actual_img);
 
+
+    // Given in documentation
     let form= new FormData()
 
     form.append('image',actual_img);
